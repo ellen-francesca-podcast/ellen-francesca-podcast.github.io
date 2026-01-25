@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: members of the lab or group
+description: Podcast hosts
 nav: true
 nav_order: 7
 
@@ -10,19 +10,15 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: ellen_pic.jpg
+    content: about_ellen.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p><a href="https://www.linkedin.com/in/ellen-schrader/" target="_blank">LinkedIn Profile</a></p>
   - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: francesca_pic.jpg
+    content: about_francesca.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p><a href="https://www.linkedin.com/in/francesca-drummer-9869b3169/" target="_blank">LinkedIn Profile</a></p>
 ---
