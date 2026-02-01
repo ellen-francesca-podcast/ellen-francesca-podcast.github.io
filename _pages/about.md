@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: podcast_logo.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p><i class="fa-solid fa-podcast"></i></p>
