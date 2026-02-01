@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/projects/";
           },
         },{id: "nav-people",
-          title: "people",
+          title: "People",
           description: "Podcast hosts",
           section: "Navigation",
           handler: () => {
