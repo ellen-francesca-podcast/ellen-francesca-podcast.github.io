@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: People
+title: people
 description: Podcast hosts
 nav: true
 nav_order: 7
