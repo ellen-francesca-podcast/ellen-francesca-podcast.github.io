@@ -1,20 +1,18 @@
 ---
 layout: page
-title: Time Management for PhD Students
+title: 🎙️ Time-management for mortal PhD students
 description: A podcast episode on effective time management strategies, featuring a downloadable annual planning worksheet
 img: /assets/podcast_logo.png
 importance: 1
-category: Podcast
+category: podcast
 ---
 
-## 🎙️ Podcast: Time-management for mortal PhD students
-
-Time management in a PhD isn’t about cramming more work into your day. It’s about working intentionally in a system that was never designed for clear boundaries. In this episode, we explore why managing time in academia feels uniquely challenging, from open-ended goals and constant guilt to the pressure of an always-on culture. Inspired by Four Thousand Weeks and Luis P. Prieto’s insightful homage,
-Two Hundred Weeks: Productivity for Mortal PhD Students, we discuss strategies for *mortal* PhD students: practical planning systems, boundary-setting approaches, and sustainable productivity tools that protect both progress and wellbeing. With roughly 200 weeks to complete a PhD, how you spend your time truly matters.
-
-[Listen to the episode](https://open.spotify.com/episode/6gPPDCY0YIclVKBWxQlth5?si=6f09198ae9a84ec6)
-
+## Episode
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/6gPPDCY0YIclVKBWxQlth5?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+**Description:** Time management in a PhD isn’t about cramming more work into your day. It’s about working intentionally in a system that was never designed for clear boundaries. In this episode, we explore why managing time in academia feels uniquely challenging, from open-ended goals and constant guilt to the pressure of an always-on culture. Inspired by Four Thousand Weeks and Luis P. Prieto’s insightful homage,
+Two Hundred Weeks: Productivity for Mortal PhD Students, we discuss strategies for *mortal* PhD students: practical planning systems, boundary-setting approaches, and sustainable productivity tools that protect both progress and wellbeing. With roughly 200 weeks to complete a PhD, how you spend your time truly matters.
 
 
 **Books:**
@@ -38,7 +36,9 @@ Two Hundred Weeks: Productivity for Mortal PhD Students, we discuss strategies f
 - Huberman Lab - Dr. Cal Newport: How to Enhance Focus and Improve Productivity; ⁠https://open.spotify.com/episode/5JgBKsOLHtMDHOFFScw17A?si=0fed4cbf48254488⁠
 - WorkLife with Adam Grant - Protecting your time with Linda Babcock; ⁠https://open.spotify.com/episode/6NDjW6G4FOFD1EfkSHLCwi?si=88f24204b4e54801⁠
 
+
 ---
+
 
 ## 📋 Annual Planning Worksheet
 
@@ -50,8 +50,9 @@ This comprehensive annual planning worksheet is designed to help you:
 
 ### Download the Worksheet
 
-[Download Annual Planning Template (Markdown)]({{site.baseurl}}/assets/files/annual_planning.md)
-[Download Annual Planning Template (PDF)]({{site.baseurl}})/assets/pdf/annual_planning_2026.pdf
+[Download Annual Planning Template (Markdown)]({{site.baseurl}}/assets/markdown/annual_planning.md)
+
+[Download Annual Planning Template (PDF)]({{site.baseurl}}/assets/pdf/annual_planning_2026.pdf)
 
 ---
 
@@ -59,7 +60,7 @@ This comprehensive annual planning worksheet is designed to help you:
 
 Below is the complete annual planning worksheet referenced in the podcast episode:
 
-{% include_relative ../annual_planning.md %}
+{% include_relative annual_planning.md %}
 
 ---
 
@@ -70,5 +71,3 @@ Below is the complete annual planning worksheet referenced in the podcast episod
 3. **Be honest and specific** in your reflections and goals
 4. **Treat it as a living document** - review and update quarterly
 5. **Share with your supervisor** or accountability partner for feedback
-
-Questions or feedback? [Contact us](#) <!-- Add your contact link -->
