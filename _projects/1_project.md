@@ -1,81 +1,74 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Time Management for PhD Students
+description: A podcast episode on effective time management strategies, featuring a downloadable annual planning worksheet
+img: /assets/podcast_logo.png
 importance: 1
-category: work
-related_publications: true
+category: Podcast
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## 🎙️ Podcast: Time-management for mortal PhD students
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Time management in a PhD isn’t about cramming more work into your day. It’s about working intentionally in a system that was never designed for clear boundaries. In this episode, we explore why managing time in academia feels uniquely challenging, from open-ended goals and constant guilt to the pressure of an always-on culture. Inspired by Four Thousand Weeks and Luis P. Prieto’s insightful homage,
+Two Hundred Weeks: Productivity for Mortal PhD Students, we discuss strategies for *mortal* PhD students: practical planning systems, boundary-setting approaches, and sustainable productivity tools that protect both progress and wellbeing. With roughly 200 weeks to complete a PhD, how you spend your time truly matters.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+[Listen to the episode](https://open.spotify.com/episode/6gPPDCY0YIclVKBWxQlth5?si=6f09198ae9a84ec6)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/6gPPDCY0YIclVKBWxQlth5?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Books:**
+- Deep Work, Cal Newport
+- The 12 Week Year, Brian P. Moran and Micheal Lennington
+- Four Thousand Weeks: Time Management for Mortals, Oliver Burkeman
+- The Lean PhD, Julian Kirchherr
+- The No Club - Putting a Stop to Women's Dead-End Work, Linda Babcock
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Blog posts:**
+- Time - can you ever really manage it?, Inger Mewburn; ⁠https://thesiswhisperer.com/2012/05/14/time-can-you-ever-really-manage-it/
+- ⁠Two Hundred Weeks: Productivity for Mortal PhD Students, Louis P. Prieto; ⁠https://ahappyphd.org/posts/productivity-mortal-phds/⁠
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+**Nature career:**
+- How to manage your time as a researcher; ⁠https://www.nature.com/articles/d41586-022-04364-2⁠
+- Why I use Notion to organize my PhD research; ⁠https://www.nature.com/articles/d41586-023-03323-9⁠
+- Nature collection on time management; ⁠https://www.nature.com/collections/hdgwsjjyjh⁠
 
-{% endraw %}
+**Podcast:**
+- Huberman Lab - Dr. Cal Newport: How to Enhance Focus and Improve Productivity; ⁠https://open.spotify.com/episode/5JgBKsOLHtMDHOFFScw17A?si=0fed4cbf48254488⁠
+- WorkLife with Adam Grant - Protecting your time with Linda Babcock; ⁠https://open.spotify.com/episode/6NDjW6G4FOFD1EfkSHLCwi?si=88f24204b4e54801⁠
+
+---
+
+## 📋 Annual Planning Worksheet
+
+This comprehensive annual planning worksheet is designed to help you:
+- Review and reflect on your past year
+- Build time awareness for the remainder of your PhD
+- Set realistic goals and identify potential risks
+- Create a concrete action plan for the year ahead
+
+### Download the Worksheet
+
+[Download Annual Planning Template (Markdown)]({{site.baseurl}}/assets/files/annual_planning.md)
+[Download Annual Planning Template (PDF)]({{site.baseurl}})/assets/pdf/annual_planning_2026.pdf
+
+---
+
+## 📝 Worksheet Preview
+
+Below is the complete annual planning worksheet referenced in the podcast episode:
+
+{% include_relative ../annual_planning.md %}
+
+---
+
+## 💡 How to Use This Worksheet
+
+1. **Set aside dedicated time** (2-4 hours) for this exercise
+2. **Work through each section sequentially** - they build on each other
+3. **Be honest and specific** in your reflections and goals
+4. **Treat it as a living document** - review and update quarterly
+5. **Share with your supervisor** or accountability partner for feedback
+
+Questions or feedback? [Contact us](#) <!-- Add your contact link -->
