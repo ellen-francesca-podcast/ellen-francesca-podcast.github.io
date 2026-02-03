@@ -11,13 +11,13 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "An overview of podcasts and other projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-people",
-          title: "People",
+          title: "people",
           description: "Podcast hosts",
           section: "Navigation",
           handler: () => {
@@ -45,11 +45,11 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+      },{id: "projects-time-management-for-mortal-phd-students",
+          title: 'Time-management for mortal PhD students',
+          description: "A podcast episode on effective time management strategies, featuring a downloadable annual planning worksheet",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/time_management/1_project/";
             },},{
         id: 'social-cv',
         title: 'CV',
