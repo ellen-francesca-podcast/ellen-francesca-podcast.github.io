@@ -1,7 +1,7 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: episodes
+permalink: /episodes/
 description: An overview of podcasts and other projects.
 nav: true
 nav_order: 3
