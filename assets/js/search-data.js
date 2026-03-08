@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "projects",
+  },{id: "nav-episodes",
+          title: "episodes",
           description: "An overview of podcasts and other projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/episodes/";
           },
         },{id: "nav-people",
           title: "people",
@@ -50,6 +50,11 @@ ninja.data = [{
           description: "A podcast episode on effective time management strategies, featuring a downloadable annual planning worksheet",
           section: "Projects",handler: () => {
               window.location.href = "/projects/time_management/1_project/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/time_management/2_career_crisis/";
             },},{
         id: 'social-cv',
         title: 'CV',
