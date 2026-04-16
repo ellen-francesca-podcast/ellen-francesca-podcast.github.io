@@ -3,12 +3,15 @@
 # -----------------------------------------------------------------------------
 
 title: "Under Review: The PhD Podcast"
-first_name: Francesca
-middle_name: K.
-last_name: Drummer & Ellen Schrader  
+authors:
+  - first_name: Francesca
+    middle_name: K.
+    last_name: Drummer
+  - first_name: Ellen
+    last_name: Schrader
 keywords: phd, computational-biology, ai, machine-learning # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /assets/img/podcast_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://ellen-francesca-podcast.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root

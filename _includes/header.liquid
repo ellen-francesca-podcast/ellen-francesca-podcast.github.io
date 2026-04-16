@@ -5,16 +5,13 @@
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
+            {% if site.authors %}
+              {% for author in site.authors %}
+                {% unless forloop.first %} &amp; {% endunless %}
+                <span class="font-weight-bold">{{- author.first_name -}}</span>
+                {% if author.middle_name %} {{- author.middle_name -}} {% endif %}
+                {{- author.last_name -}}
+              {% endfor %}
             {% endif %}
           {% else %}
             {{- site.title -}}
