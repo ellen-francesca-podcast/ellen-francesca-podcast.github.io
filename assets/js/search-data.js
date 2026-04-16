@@ -45,29 +45,27 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "projects-time-management-for-mortal-phd-students",
-          title: 'Time-management for mortal PhD students',
-          description: "A podcast episode on effective time management strategies, featuring a downloadable annual planning worksheet",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/time_management/1_project/";
-            },},{id: "projects-",
+      },{id: "projects-",
           title: '',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/time_management/2_career_crisis/";
+              window.location.href = "/projects/260308_career_crisis/";
+            },},{id: "projects-how-does-generative-ai-change-scientific-discovery",
+          title: 'How does generative AI change scientific discovery?',
+          description: "A podcast episode about how generative AI tools like Claude, ChatGPT change our day-to-day work as scientists in academia.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/260329_genAI_in_science/";
+            },},{id: "projects-time-management-for-mortal-phd-students",
+          title: 'Time-management for mortal PhD students',
+          description: "A podcast episode on effective time management strategies, featuring a downloadable annual planning worksheet",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/260401_time_management/1_project/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%65%6C%6C%65%6E-%66%72%61%6E%63%65%73%63%61@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-inspire',
