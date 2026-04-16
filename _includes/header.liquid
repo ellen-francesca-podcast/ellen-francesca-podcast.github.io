@@ -9,7 +9,7 @@
               {% for author in site.authors %}
                 {% unless forloop.first %} &amp; {% endunless %}
                 <span class="font-weight-bold">{{- author.first_name -}}</span>
-                {% if author.middle_name %} {{- author.middle_name -}} {% endif %}
+                {% if author.middle_name %}{{- author.middle_name -}}{% endif %}
                 {{- author.last_name -}}
               {% endfor %}
             {% endif %}
