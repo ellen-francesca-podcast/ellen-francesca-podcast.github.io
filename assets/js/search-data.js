@@ -59,7 +59,7 @@ ninja.data = [{
           title: 'Time-management for mortal PhD students',
           description: "A podcast episode on effective time management strategies, featuring a downloadable annual planning worksheet",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/260401_time_management/1_project/";
+              window.location.href = "/projects/260401_time_management/260401_time_management/";
             },},{
         id: 'social-email',
         title: 'email',
