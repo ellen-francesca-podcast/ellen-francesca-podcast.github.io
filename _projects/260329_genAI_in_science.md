@@ -136,6 +136,8 @@ What measures are being taken by journals or conferences?
 
 AI to refine peer reviews, 
 
+For further reading check out this [[Nature review]] (#ref-23) that was published after we recorded the episode. 
+
 
 ## Discussion: The future of scientific research
 
@@ -237,6 +239,8 @@ TODO: Include quotes from the podcast
 <a id="ref-25"></a>[25] [Relativistic Covariance and Nonlinear Quantum Mechanics: Tomonaga-Schwinger Analysis](https://arxiv.org/abs/2511.15935)
 
  <a id="ref-26"></a>[26][Steve Hsu on X: post on GPT-5 and theoretical physics research](https://x.com/hsu_steve/status/1996034522308026435)
+
+ <a id="ref-26"></a>[27] [Peer review in the time of artificial intelligence](https://www.nature.com/articles/s41565-026-02177-2)
 
 ## Talks and videos
 
