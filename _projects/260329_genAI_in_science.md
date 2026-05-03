@@ -262,6 +262,6 @@ When everything becomes faster, the pressure to keep up also increases. That can
 
 - [Open-Source and Science in the Era of Foundation Models](https://www.youtube.com/watch?v=yPfrzFzvKSA)
 - [Still Far From Achieving Autonomous Closed-Loop Scientific Research — Sam Altman](https://www.youtube.com/watch?v=U2lEJKnQaaw)
-- The night science podcast: Google research scientists (TODO: add link)
+- [The night science podcast: Google research scientists](https://nightscience.buzzsprout.com/1744020/episodes/17807027-76-can-google-s-co-scientist-project-give-scientists-superpowers)
 
 Note: Illustration from this episode is from [The Turing Way](https://zenodo.org/records/8169292), [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
