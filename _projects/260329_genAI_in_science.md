@@ -2,33 +2,29 @@
 layout: page
 title: How does generative AI change scientific discovery?
 description: A podcast episode about how generative AI tools like Claude, ChatGPT change our day-to-day work as scientists in academia.
-img: /assets/img/podcast_logo.png
+img: /assets/img/scientific-assessment-without-text.jpg
 importance: 1
 category: podcast
 ---
 
 ## 🎙️ Episode
 
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/episode/6G5OhWceJnC6FgLX91D4I9?si=b43yEcKVQYm8V_Wn_kSrog" width="100%" height="352" frameBorder="0" allowfullscreen="TODO: insert link" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/6G5OhWceJnC6FgLX91D4I9?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 **Description:**
 How is research changing in the age of AI?
 In this episode, Ellen and Francesca discuss how generative AI has entered nearly every stage of their PhDs: brainstorming, literature review, hypothesis generation, coding, writing, reviewing, and publishing. They reflect on the tools they use, the ones that did not live up to expectations, and how their own practices have evolved as the technology has improved and attitudes toward it have shifted.
 The conversation explores both the promise and the risks of AI in research: faster workflows, new forms of intellectual support, and lower barriers to getting started, but also the dangers of homogenised thinking, AI slop, uneven adoption across fields, and growing uncertainty around authorship, expertise, and scientific originality. Ellen and Francesca reflect on how differently AI is being adopted across disciplines and by individual researchers, and ask what all of this means for the future of science. Are we moving toward a world of AI scientists, or one in which more of us become "hobby scientists"?
 
-**Detailed outline**
-
-We started our PhDs after ChatGPT became first available to the public
-
-In this episode we discuss how generative AI changed our scientific practice in every step of the research process:
+# Generative AI in every step of scientific research
 
 1. [**Literature review and brainstorming**](#1-literature-review-and-brain-storming)
 
    Main takeaway: AI helps researchers navigate information overload, but it may also push many people toward the same papers, ideas, and trends.
 
 2. [**Data analysis and method development**](#2-data-analysis-and-method-development)
-
-   
+ 
+   Main takeaway: In computational work, generative AI is shifting researchers from writing every line of code themselves toward planning, prompting, reviewing, and integrating code much faster than before.
 
 3. [**Writing**](#3-writing)
 
@@ -36,7 +32,8 @@ In this episode we discuss how generative AI changed our scientific practice in 
 
 4. [**Peer review**](#4-peer-review)
 
-   Main takeaway:
+   Main takeaway: AI can help improve peer review, but the central question is whether it assists human judgment or replaces it.
+
 
 And last, but not least, we discuss how we see generative AI changing the future of scientific research (#5-Discussion-The-future-of-scientific-research)
 
@@ -88,11 +85,7 @@ This shift is not limited to academia. Spotify’s co-CEO recently said that som
 
 **Is there a promise and reality gap?**
 
-But this is not a simple success story. In the episode, we also talk about the **gap between the promise and the reality** of coding agents. They can be amazing for setup, translation, and quick prototyping, yet still frustrating for method development when scientific control, debugging, and precise reasoning matter. In that sense, AI does not remove the need for expertise — it shifts expertise toward planning, verification, and judgment.
-
-- it is a skill you need to learn, how to communicate with the agent
-
-And requires assumption of that someone knows how to code? And
+But this is not a simple success story. In the episode, we also talk about the **gap between the promise and the reality** of coding agents. They can be amazing for setup, translation, and quick prototyping, yet still frustrating for method development when scientific control, debugging, and precise reasoning matter. In that sense, AI does not remove the need for expertise but instead  shifts expertise toward planning, verification, and judgment. From this the questions that follow are: Is programming or coding still a skill that you need to learn or is your time better inversted by improving your prompting and communication skills with the agent?
 
 ## 3. Writing
 
@@ -100,8 +93,7 @@ A recent Science study analyzing more than two million preprints (arXiv, bioRxiv
 
 **"Vibe citing"**
 
-Alex Adams, coined the term "vibe citing" to describe the LLM tendency to derive or amalgamate real sources into uncanny imitations.
-More hallucinated references
+One of the more worrying side effects of writing with LLMs is not just vague prose, but unreliable references. GPTZero’s Head of Machine Learning, Alex Adams, coined the term **“vibe citing”** to describe the tendency of LLMs to derive or amalgamate real sources into uncanny imitations [[23]](#ref-23). This matters because if citations become unreliable literature reviews become noisier, and the scientific record becomes more difficult to trust.
 
 **Democratization**
 
@@ -111,33 +103,36 @@ This is important because of the measurable burden for non-native English speake
 
 In that sense, AI can act as a kind of scientific translator: not replacing scientific thinking, but helping researchers express their ideas more clearly in the language that currently dominates publication.
 
-**Journal and conference policies around LLM usage**
+**Policies and transparency around LLM usage**
 
 Science’s most [recent policies](https://www.science.org/content/page/science-journals-editorial-policies#image-text) 
 
 > allow the use of large language models for certain processes without any disclosure, such as editing the text in research papers to improve clarity and readability or assisting in the gathering of references. However, the use of AI beyond that—for example, in drafting manuscript text— must be declared. And the use of AI to create figures is not allowed. All authors must certify and be responsible for all content, including that generated with the aid of AI 
 
-Journals are starting to put out specific guidelines 
+Publishers and journals are now starting to define clearer boundaries. *Science*, for example, says that reviewers may not enter any part of a manuscript into an LLM or other AI system. That reflects a broader concern with confidentiality, accountability, and the difference between language assistance and outsourced judgment.
+
 
 ## 4. Peer review
 
-Peer review is a necessary step for publishing in recognized journals or conferences. It means that someone else from the scientific community (aka a peer) has to review your publication: they provide feedback, ask clarifying questions and give the journal an indication of whether the article is publishable or not. 
+Peer review is a necessary step for publishing in recognized journals or conferences. Other researchers in the field evaluate a manuscript, ask clarifying questions, and help editors decide whether the work is ready to publish.
 
 This process is always on a voluntary basis: no money, no recognition etc. which makes it difficult to find reviewers or also reviewers that know your field but don't know your work directly. Sometimes that causes reviewers to review your paper without knowing the field and hence understanding the impact of the work or limited time because of an overwhelmhing amount of review request. Especially, the latter is believed to cause a ever increasing amount of AI generative peer reviews [[23]](#ref-23).
 
-[2]
+**Improve clarity**
 
-We have more manuscripts submitted, we need AI to review papers to some extend. But how can we make sure it is not just checking for 
-    
+One possible benefit of AI is that it can improve the quality of written reviews. A recent *Nature* news article describes an AI coaching system that helped reviewers write more constructive and less toxic feedback. [[2]](#ref-2) 
 
-What measures are being taken by journals or conferences?
+We also discussed a more informal use of AI in the podcast: asking LLMs to critique a draft before submission, roleplay different kinds of reviewers, or point out missing controls and unclear claims. Used in that way, AI can strengthen a paper before it even enters formal peer review.
 
-- Journals start putting all peer reviews online to counteract AI generated reviews
+**Replace human judgement**
 
-AI to refine peer reviews, 
+The concern is different when AI is no longer just editing or sharpening a review, but generating the actual judgment. Pangram’s analysis of ICLR 2026 reviews estimated that 21% of reviews were fully AI-generated, and that more than half involved AI in some form. [[28]](#ref-28)
 
-For further reading check out this [[Nature review]] (#ref-23) that was published after we recorded the episode. 
+That is where the deeper problem begins: not just automation, but the risk that human evaluation is being replaced by synthetic feedback that sounds plausible without reflecting real expertise or accountability.
 
+A useful principle comes from a 2026 *Nature Nanotechnology* editorial: generative AI may support peer review, but it “must not replace” human judgment, expertise, and critical thinking. [[27]](#ref-27) 
+
+*For further reading check out this [[Nature review]] (#ref-23) that was published after we recorded the episode.*
 
 ## Discussion: The future of scientific research
 
@@ -145,42 +140,61 @@ The final question what we asked ourselves was:
 
 > Are we moving toward a world of AI scientists, or one in which more of us become "hobby scientists"?
 
-**What skills will remain import to have, which not?**
+That question is exciting, but also misleading if framed too simply. The temptation today is to imagine fully automated science: AI systems that generate hypotheses, design experiments, analyze results, and draft manuscripts end to end [[8]](#ref-8). But as Dashun Wang and colleagues argue:
 
-> The temptation today is just to fully automate scientific workflows, to just directly switch to AI scientists or self-driving laboratories that generate hypothesis design experiments and draft manuscripts end to end. But these systems can be dazzling. But science is not an assembly line, nor does it have fixed objectives to optimize. It's an enterprise that is built on interpretation, contestation and responsibility in which human judgment is crucial. [[7]](#ref-7) TODO: check this reference!!
+> “The central goal should not be complete automation, but designing platforms that preserve creativity, responsibility and surprise.” [[7]](#ref-7)
 
-And I really think that this idea of like taste and human judgment, what ideas we find worth pursuing, what are questions we find worth pursuing, what are the things we actually want to be included in the manuscript of writing?
+Science is not just a pipeline for producing outputs. It depends on interpretation, judgment, disagreement, and responsibility. AI may be able to accelerate many parts of the process, but it does not (for now) remove the need for people to decide which questions are worth asking, which results are convincing, and which ideas are worth pursuing.
 
-How will we motivate and raise a new generation of scientists, motivate them to learn and think for themselves without 
+At the same time, this raises a difficult question for training the next generation of scientists. If AI makes it easier to skip directly to an answer, how do we still motivate people to learn the underlying concepts, struggle with hard problems, and develop scientific intuition for themselves? How can we make time to think, when we are used to everything progressing so fast?
 
-Interesting perspective on this and great read is: [The machine are fine, I am worried about us](https://ergosphere.blog/posts/the-machines-are-fine/)
+A perspective we found interesting here is: [The machines are fine, I am worried about us](https://ergosphere.blog/posts/the-machines-are-fine/) [[29]](#ref-29).
 
-**scientific research in academia vs industry**
+### Scientific research in academia vs. industry
 
-An open question is: Will scientific research slowly transition to industry? because they have more resources. Or will academic institutions remain the main drivers because of the partially government enabled fundings and therefore being able to work on scientific problems that do not directly need to be profitable?
+Another open question is whether AI will shift even more scientific power toward industry.
 
-**the future of preprints**
+Large companies often have more compute, more engineering support, and more access to frontier models than academic labs. That could widen the gap between well-resourced institutions and smaller research groups. On the other hand, academia still has something industry often does not: the freedom to work on questions that are important without needing them to be immediately profitable [[24]](#ref-24).
 
-What about preprints? Like Lior Prachter wrote in his reflection to the coding transformation he also raises the question about the usefullness of preprints. In addition to them becoming increasingly faster we also want to add
+### The future of preprints
 
+The role of preprints may also change. If ideas can be turned into code, figures, and polished manuscripts much more quickly, then preprints become both more powerful and more fragile.
+
+They are more powerful because they allow fast dissemination of ideas. But they also become more fragile because the barrier to producing something that *looks* like a paper is getting lower. As Lior Pachter notes in *The Quickening*, if implementing a method becomes dramatically faster, then we also have to ask what role preprints, conference proceedings, and journal publications will play in the future. [[18]](#ref-18)
 
 ## Main takeaways
 
-We went from being ashamed from using AI, trying to hide when we ask ChatGPT for help to adopting it in our day-to-day life. However, in academia we are still missing policies and guidelines on the use of AI. Journals are starting to put out specific guidelines 
+We went from feeling slightly embarrassed about using AI in research to using it almost every day. At this moment, our main takeaways are:
 
-**senior scientists will benefit**
+### 1. AI helps most when you already know what you are doing
 
-Throughout the discussion and this summary we highlighted often that **senior** scientists will be able to make the most of AI. Basically, when you have the knowledge and terms to land in the right search and probability space of the LLM you can benefit the most from it. But what about the rest of us? What about the junior researchers and stuff?
+Throughout this discussion, one theme kept coming up: **senior researchers are often better positioned to benefit from AI**.
 
-**increased amount of publication, less breakthroughts**
+If you already know the field, the terminology, and the important caveats, it is much easier to ask the right questions, recognize bad answers, and use AI as a real accelerator. That also means junior researchers may benefit less or may even be more vulnerable to being misled by confident but incorrect outputs.
 
-Since a few years we see an increased amount of publications 
+### 2. More scientific output does not automatically mean more scientific progress
 
-**Fast pace, no time to think**
+Generative AI makes it easier to write, code, summarize, and produce manuscripts. That is likely one reason why we are seeing more scientific output.
 
-What we notice is that with AI science is moving at an increased pace. Because we now have so much help the expectation or the trend is to published more 
+But more papers do not necessarily mean more breakthroughs. One of the worries we discussed is that AI may accelerate **incremental** work much more than genuinely novel or risky ideas.
 
-TODO: Include quotes from the podcast
+### 3. Human judgment becomes more important, not less
+
+One of the strongest conclusions for us is that AI does not remove the need for expertise it changes where that expertise matters most.
+
+If machines can generate text, code, figures, and even reviewer-style feedback, then the scarce skill becomes the ability to evaluate, interpret, and decide. Judgment, taste, and responsibility are not replaced by AI; they become more central.
+
+### 4. AI can genuinely democratize parts of science
+
+Not everything is a downside. We also discussed clear ways in which AI can lower barriers.
+
+For example, it can help researchers understand work outside their immediate field, support non-native English speakers in writing, and make coding more accessible to people who are not primarily programmers. 
+
+### 5. The pace of science is increasing — and that changes how it feels to do research
+
+One thing we both noticed is that AI changes not only what we produce, but also the rhythm of research.
+
+When everything becomes faster, the pressure to keep up also increases. That can be exciting, but it can also leave less time to think, reflect, and develop ideas slowly. The risk is that scientific work becomes more efficient, while the space for deep thinking becomes smaller.
 
 # Resources
 
@@ -230,9 +244,12 @@ TODO: Include quotes from the podcast
 
 <a id="ref-22"></a>[22] [Amano, T., Ramírez-Castañeda, V., Berdejo-Espinola, V., Borokini, I., Chowdhury, S., Golivets, M. et al. The manifold costs of being a non-native English speaker in science. PLoS Biol. 21, e3002184 (2023).](https://doi.org/10.1371/journal.pbio.3002184)
 
-## Papers and reports
+<a id="ref-23"></a>[23] [GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers](https://gptzero.me/news/neurips/?utm_source=chatgpt.com)
 
-<a id="ref-23"></a>[23]  [Pangram Predicts 21% of ICLR Reviews are AI-Generated](https://www.pangram.com/blog/pangram-predicts-21-of-iclr-reviews-are-ai-generated)
+<a id="ref-29"></a>[29] [The machines are fine, I am worried about us](https://ergosphere.blog/posts/the-machines-are-fine/).
+
+
+## Papers and reports
 
 <a id="ref-24"></a>[24] [The Compute Divide in Machine Learning: A Threat to Academic Contribution and Scrutiny?](https://arxiv.org/abs/2401.02452)
 
@@ -240,10 +257,14 @@ TODO: Include quotes from the podcast
 
  <a id="ref-26"></a>[26][Steve Hsu on X: post on GPT-5 and theoretical physics research](https://x.com/hsu_steve/status/1996034522308026435)
 
- <a id="ref-26"></a>[27] [Peer review in the time of artificial intelligence](https://www.nature.com/articles/s41565-026-02177-2)
+ <a id="ref-27"></a>[27] [Peer review in the time of artificial intelligence](https://www.nature.com/articles/s41565-026-02177-2)
+
+ <a id="ref-28"></a>[28]  [Pangram Predicts 21% of ICLR Reviews are AI-Generated](https://www.pangram.com/blog/pangram-predicts-21-of-iclr-reviews-are-ai-generated)
 
 ## Talks and videos
 
 - [Open-Source and Science in the Era of Foundation Models](https://www.youtube.com/watch?v=yPfrzFzvKSA)
 - [Still Far From Achieving Autonomous Closed-Loop Scientific Research — Sam Altman](https://www.youtube.com/watch?v=U2lEJKnQaaw)
 - The night science podcast: Google research scientists (TODO: add link)
+
+Note: Illustration from this episode is from [The Turing Way](https://zenodo.org/records/8169292), [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
