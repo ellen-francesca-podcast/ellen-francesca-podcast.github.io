@@ -23,17 +23,16 @@ The conversation explores both the promise and the risks of AI in research: fast
    Main takeaway: AI helps researchers navigate information overload, but it may also push many people toward the same papers, ideas, and trends.
 
 2. [**Data analysis and method development**](#2-data-analysis-and-method-development)
- 
+
    Main takeaway: In computational work, generative AI is shifting researchers from writing every line of code themselves toward planning, prompting, reviewing, and integrating code much faster than before.
 
 3. [**Writing**](#3-writing)
 
-   Main takeaway: Generative AI makes scientific writing faster and often clearer, but it also lowers the cost of producing polished text that could be mistaken for high impact work. 
+   Main takeaway: Generative AI makes scientific writing faster and often clearer, but it also lowers the cost of producing polished text that could be mistaken for high impact work.
 
 4. [**Peer review**](#4-peer-review)
 
    Main takeaway: AI can help improve peer review, but the central question is whether it assists human judgment or replaces it.
-
 
 And last, but not least, we discuss how we see generative AI changing the future of scientific research (#5-Discussion-The-future-of-scientific-research)
 
@@ -85,11 +84,11 @@ This shift is not limited to academia. Spotify’s co-CEO recently said that som
 
 **Is there a promise and reality gap?**
 
-But this is not a simple success story. In the episode, we also talk about the **gap between the promise and the reality** of coding agents. They can be amazing for setup, translation, and quick prototyping, yet still frustrating for method development when scientific control, debugging, and precise reasoning matter. In that sense, AI does not remove the need for expertise but instead  shifts expertise toward planning, verification, and judgment. From this the questions that follow are: Is programming or coding still a skill that you need to learn or is your time better inversted by improving your prompting and communication skills with the agent?
+But this is not a simple success story. In the episode, we also talk about the **gap between the promise and the reality** of coding agents. They can be amazing for setup, translation, and quick prototyping, yet still frustrating for method development when scientific control, debugging, and precise reasoning matter. In that sense, AI does not remove the need for expertise but instead shifts expertise toward planning, verification, and judgment. From this the questions that follow are: Is programming or coding still a skill that you need to learn or is your time better inversted by improving your prompting and communication skills with the agent?
 
 ## 3. Writing
 
-A recent Science study analyzing more than two million preprints (arXiv, bioRxiv and SSRN) found that LLM adoption was associated with posting 36–60% more manuscripts. But for LLM-assisted manuscripts, greater writing complexity was associated with *lower* publication probability. This observation is reverse of the historical pattern: higher writing completixity = higher publication probability. One possible interpretation is that generative AI makes it easier to produce more text, without necessarily improving the underlying quality of the work. [[20]](#ref-20)
+A recent Science study analyzing more than two million preprints (arXiv, bioRxiv and SSRN) found that LLM adoption was associated with posting 36–60% more manuscripts. But for LLM-assisted manuscripts, greater writing complexity was associated with _lower_ publication probability. This observation is reverse of the historical pattern: higher writing completixity = higher publication probability. One possible interpretation is that generative AI makes it easier to produce more text, without necessarily improving the underlying quality of the work. [[20]](#ref-20)
 
 **"Vibe citing"**
 
@@ -105,12 +104,11 @@ In that sense, AI can act as a kind of scientific translator: not replacing scie
 
 **Policies and transparency around LLM usage**
 
-Science’s most [recent policies](https://www.science.org/content/page/science-journals-editorial-policies#image-text) 
+Science’s most [recent policies](https://www.science.org/content/page/science-journals-editorial-policies#image-text)
 
-> allow the use of large language models for certain processes without any disclosure, such as editing the text in research papers to improve clarity and readability or assisting in the gathering of references. However, the use of AI beyond that—for example, in drafting manuscript text— must be declared. And the use of AI to create figures is not allowed. All authors must certify and be responsible for all content, including that generated with the aid of AI 
+> allow the use of large language models for certain processes without any disclosure, such as editing the text in research papers to improve clarity and readability or assisting in the gathering of references. However, the use of AI beyond that—for example, in drafting manuscript text— must be declared. And the use of AI to create figures is not allowed. All authors must certify and be responsible for all content, including that generated with the aid of AI
 
-Publishers and journals are now starting to define clearer boundaries. *Science*, for example, says that reviewers may not enter any part of a manuscript into an LLM or other AI system. That reflects a broader concern with confidentiality, accountability, and the difference between language assistance and outsourced judgment.
-
+Publishers and journals are now starting to define clearer boundaries. _Science_, for example, says that reviewers may not enter any part of a manuscript into an LLM or other AI system. That reflects a broader concern with confidentiality, accountability, and the difference between language assistance and outsourced judgment.
 
 ## 4. Peer review
 
@@ -120,7 +118,7 @@ This process is always on a voluntary basis: no money, no recognition etc. which
 
 **Improve clarity**
 
-One possible benefit of AI is that it can improve the quality of written reviews. A recent *Nature* news article describes an AI coaching system that helped reviewers write more constructive and less toxic feedback. [[2]](#ref-2) 
+One possible benefit of AI is that it can improve the quality of written reviews. A recent _Nature_ news article describes an AI coaching system that helped reviewers write more constructive and less toxic feedback. [[2]](#ref-2)
 
 We also discussed a more informal use of AI in the podcast: asking LLMs to critique a draft before submission, roleplay different kinds of reviewers, or point out missing controls and unclear claims. Used in that way, AI can strengthen a paper before it even enters formal peer review.
 
@@ -130,9 +128,9 @@ The concern is different when AI is no longer just editing or sharpening a revie
 
 That is where the deeper problem begins: not just automation, but the risk that human evaluation is being replaced by synthetic feedback that sounds plausible without reflecting real expertise or accountability.
 
-A useful principle comes from a 2026 *Nature Nanotechnology* editorial: generative AI may support peer review, but it “must not replace” human judgment, expertise, and critical thinking. [[27]](#ref-27) 
+A useful principle comes from a 2026 _Nature Nanotechnology_ editorial: generative AI may support peer review, but it “must not replace” human judgment, expertise, and critical thinking. [[27]](#ref-27)
 
-*For further reading check out this [[Nature review]] (#ref-23) that was published after we recorded the episode.*
+_For further reading check out this [[Nature review]] (#ref-23) that was published after we recorded the episode._
 
 ## Discussion: The future of scientific research
 
@@ -160,7 +158,7 @@ Large companies often have more compute, more engineering support, and more acce
 
 The role of preprints may also change. If ideas can be turned into code, figures, and polished manuscripts much more quickly, then preprints become both more powerful and more fragile.
 
-They are more powerful because they allow fast dissemination of ideas. But they also become more fragile because the barrier to producing something that *looks* like a paper is getting lower. As Lior Pachter notes in *The Quickening*, if implementing a method becomes dramatically faster, then we also have to ask what role preprints, conference proceedings, and journal publications will play in the future. [[18]](#ref-18)
+They are more powerful because they allow fast dissemination of ideas. But they also become more fragile because the barrier to producing something that _looks_ like a paper is getting lower. As Lior Pachter notes in _The Quickening_, if implementing a method becomes dramatically faster, then we also have to ask what role preprints, conference proceedings, and journal publications will play in the future. [[18]](#ref-18)
 
 ## Main takeaways
 
@@ -188,7 +186,7 @@ If machines can generate text, code, figures, and even reviewer-style feedback, 
 
 Not everything is a downside. We also discussed clear ways in which AI can lower barriers.
 
-For example, it can help researchers understand work outside their immediate field, support non-native English speakers in writing, and make coding more accessible to people who are not primarily programmers. 
+For example, it can help researchers understand work outside their immediate field, support non-native English speakers in writing, and make coding more accessible to people who are not primarily programmers.
 
 ### 5. The pace of science is increasing — and that changes how it feels to do research
 
@@ -248,18 +246,17 @@ When everything becomes faster, the pressure to keep up also increases. That can
 
 <a id="ref-29"></a>[29] [The machines are fine, I am worried about us](https://ergosphere.blog/posts/the-machines-are-fine/).
 
-
 ## Papers and reports
 
 <a id="ref-24"></a>[24] [The Compute Divide in Machine Learning: A Threat to Academic Contribution and Scrutiny?](https://arxiv.org/abs/2401.02452)
 
 <a id="ref-25"></a>[25] [Relativistic Covariance and Nonlinear Quantum Mechanics: Tomonaga-Schwinger Analysis](https://arxiv.org/abs/2511.15935)
 
- <a id="ref-26"></a>[26][Steve Hsu on X: post on GPT-5 and theoretical physics research](https://x.com/hsu_steve/status/1996034522308026435)
+<a id="ref-26"></a>[26][Steve Hsu on X: post on GPT-5 and theoretical physics research](https://x.com/hsu_steve/status/1996034522308026435)
 
- <a id="ref-27"></a>[27] [Peer review in the time of artificial intelligence](https://www.nature.com/articles/s41565-026-02177-2)
+<a id="ref-27"></a>[27] [Peer review in the time of artificial intelligence](https://www.nature.com/articles/s41565-026-02177-2)
 
- <a id="ref-28"></a>[28]  [Pangram Predicts 21% of ICLR Reviews are AI-Generated](https://www.pangram.com/blog/pangram-predicts-21-of-iclr-reviews-are-ai-generated)
+<a id="ref-28"></a>[28] [Pangram Predicts 21% of ICLR Reviews are AI-Generated](https://www.pangram.com/blog/pangram-predicts-21-of-iclr-reviews-are-ai-generated)
 
 ## Talks and videos
 
